@@ -1,11 +1,7 @@
-Here’s a **GitHub-friendly version of the README** with proper formatting, section headers, and a professional tone:
-
----
-
 # Simple Command-Line Calculator 🧮
 
 A **simple, interactive command-line calculator** written in Python.
-It supports basic arithmetic operations and gracefully handles user errors.
+It supports basic arithmetic operations and handles user errors.
 
 ---
 
@@ -86,8 +82,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 ### ✅ *If you find this useful, please give it a ⭐ on GitHub!*
-
----
-
-If you want, I can help you write the `LICENSE` file, create a `.gitignore`, or set up contribution guidelines. Let me know!
-
