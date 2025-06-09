@@ -1,59 +1,93 @@
-# Command-Line-Calculator
+Here’s a **GitHub-friendly version of the README** with proper formatting, section headers, and a professional tone:
 
-Simple Command-Line Calculator
-This is a Simple Command-Line Calculator built with Python. It allows users to perform basic arithmetic operations: addition, subtraction, multiplication, and division. The program is interactive and continues to run until the user decides to exit.
+---
 
-Features
-Supports addition (+), subtraction (-), multiplication (*), and division (/).
+# Simple Command-Line Calculator 🧮
 
-Handles invalid number inputs gracefully.
+A **simple, interactive command-line calculator** written in Python.
+It supports basic arithmetic operations and gracefully handles user errors.
 
-Prevents division by zero.
+---
 
-Allows users to perform multiple calculations in a single session.
+## 🚀 Features
 
-Offers a simple and user-friendly interface.
+* ✅ Addition, subtraction, multiplication, and division
+* ✅ Handles invalid input with friendly error messages
+* ✅ Division by zero protection
+* ✅ Option to perform multiple calculations in a session
+* ✅ Clean exit option by typing `exit`
 
-How to Use
-Run the Script:
+---
 
-bash
-Copy
-Edit
-python calculator.py
-Follow the Prompts:
+## 📂 Project Structure
 
-Enter the first number.
+```text
+calculator.py  # Main Python script
+```
 
-Enter an operator (+, -, *, or /).
+---
 
-Enter the second number.
+## 🔧 Requirements
 
-View the result.
+* Python 3.x
 
-Continue or Exit:
+---
 
-After each calculation, you can choose to perform another calculation or exit the program by typing 'exit' at any number prompt or answering 'no' when asked to continue.
+## 💻 How to Run
 
-Example Interaction
-text
-Copy
-Edit
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/simple-command-line-calculator.git
+   cd simple-command-line-calculator
+   ```
+2. Run the calculator:
+
+   ```bash
+   python calculator.py
+   ```
+
+---
+
+## 📝 Usage Example
+
+```text
 Welcome to the Simple Calculator!
 You can add (+), subtract (-), multiply (*), and divide (/).
 ------------------------------
-Enter the first number: 10
-Enter an operator (+, -, *, /): *
-Enter the second number: 5
-Result: 10.0 * 5.0 = 50.0
+Enter the first number: 15
+Enter an operator (+, -, *, /): /
+Enter the second number: 3
+Result: 15.0 / 3.0 = 5.0
 ------------------------------
-Do another calculation? (yes/no): yes
-Enter the first number: exit
+Do another calculation? (yes/no): no
 Thank you for using the calculator. Goodbye!
-Requirements
-Python 3.x
+```
 
-Notes
-To exit at any time, type exit when prompted for a number.
+---
 
-The calculator handles invalid inputs and division by zero without crashing.
+## ❗ Notes
+
+* Type `exit` anytime when prompted for a number to immediately quit.
+* The calculator will prompt you to try again if you enter invalid numbers or unsupported operators.
+
+---
+
+## 📢 Contributing
+
+Pull requests are welcome! Feel free to open an issue to discuss improvements, bug fixes, or new features.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+### ✅ *If you find this useful, please give it a ⭐ on GitHub!*
+
+---
+
+If you want, I can help you write the `LICENSE` file, create a `.gitignore`, or set up contribution guidelines. Let me know!
+
